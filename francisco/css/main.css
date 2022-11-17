@@ -1,0 +1,24 @@
+body {
+	color: #f54d27;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #f54d27;
+}
+
+div > img {
+	border-radius: 100%;
+	width: 50%
+}
+
+p {
+	text-align: justify;
+}
+
+#orange {
+	background: #f54d27;
+	color: #ffffff;
+}
