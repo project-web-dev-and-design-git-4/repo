@@ -8,6 +8,7 @@
 	grid-template-columns: repeat(10, 1fr);
 	margin-top:5%;
 	margin-bottom:5%;
+	align-items:center;
 	
 }
 p{
@@ -121,6 +122,24 @@ header/*.container*/{
 	height:auto;
 	width:100%;
 	grid-column: 2/ 3;
+}
+
+
+#descrierePentruMine{
+	grid-column: 3/  9;
+	text-align:center;
+}
+#Profil{
+	grid-column: 5/ span 2;
+	height:30vw;
+	width:20vw;
+}
+#Parinti{
+	grid-column: 5/ span 2;
+}
+#descrierePentruParinti{
+	grid-column: 3/  9;
+	text-align:center;
 }
 
 
