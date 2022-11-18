@@ -42,3 +42,15 @@ ul {
   
   
 }
+li a {
+  display: block;
+  font-weight: bold;
+  width:100%;
+  align-self:center;
+  margin-left:3vw;
+  margin-bottom:5vw;
+  margin-top:5vw;
+  color:white;
+  
+  
+}
