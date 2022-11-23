@@ -14,7 +14,7 @@
 
 
 .nume {
-    background-color : red;
+   
     font-size: 6rem;
     margin:0;
     padding:0;
@@ -23,12 +23,30 @@
 }
 
 .p1 {
-background-color: forestgreen;
+
  font-size: 3rem;
     margin:0;
     padding:0;
     text-align: center;
     font-family: 'arial'; 
+    margin-top: 3vw;
 
 
+}
+ .p2{
+font-size: 3rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial'; 
+    margin-top: 3vw;
+ }
+
+.hobby {
+font-size: 6rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial'; 
+     margin-top: 4vw;
 }
