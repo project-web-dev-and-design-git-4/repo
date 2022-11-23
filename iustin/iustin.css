@@ -1,3 +1,19 @@
+
+* {
+  box-sizing: border-box;
+} 
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	margin-top:5%;
+	margin-bottom:5%;
+	align-items:center;
+	
+}
+
+
 .nume {
     background-color : red;
+    font-size: 3 rem;
 }
