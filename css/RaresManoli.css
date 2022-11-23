@@ -131,17 +131,25 @@ header/*.container*/{
 }
 #Profil{
 	grid-column: 5/ span 2;
-	height:30vw;
+	height:20vw;
 	width:20vw;
+	border-radius:50%;
 }
 #Parinti{
 	grid-column: 5/ span 2;
+		border-radius:20%;
+		align-self:center;
+
 }
 #descrierePentruParinti{
 	grid-column: 3/  9;
 	text-align:center;
 }
+.Hobbies{
+		grid-column: 5/ span 2;
+		text-align:center;
 
+}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones */
