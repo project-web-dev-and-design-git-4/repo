@@ -92,3 +92,85 @@ font-size: 3rem;
     margin-bottom : 3vw;
    
 }
+
+@media only screen and (max-width: 768px) {
+
+    .nume {
+        font-size: 3rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial';
+
+    }
+
+.p1 {
+
+ font-size: 1.5rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial'; 
+    margin-top: 3vw;
+
+}
+
+ .p2{
+font-size: 1.5rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial'; 
+    margin-top: 3vw;
+ }
+
+.hobby {
+font-size: 2.5rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial'; 
+     margin-top: 4vw;
+}
+
+.p3 {
+    font-size: 1.5rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial'; 
+      margin-top: 3vw;
+}
+
+.p4 {
+      font-size: 1.5rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial'; 
+}
+
+.info{
+font-size: 1.5rem;
+    text-align: center;
+    font-family: 'arial'; 
+    margin-top: 3vw;
+    margin-bottom : 3vw;
+ }
+
+.flex {
+    display:flex; 
+    align-items: center;
+    justify-content:center;
+}
+
+.img-me{
+    
+    width : 30vw;
+    height: 30vw;
+     margin-top: 3vw;
+    margin-bottom : 3vw;
+   
+}
+
+}
