@@ -15,5 +15,20 @@
 
 .nume {
     background-color : red;
-    font-size: 3 rem;
+    font-size: 6rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial'; 
+}
+
+.p1 {
+background-color: forestgreen;
+ font-size: 3rem;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'arial'; 
+
+
 }
