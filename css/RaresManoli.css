@@ -9,6 +9,8 @@
 	margin-top:5%;
 	margin-bottom:5%;
 	align-items:center;
+	background-color:gray;
+
 	
 }
 p{
@@ -150,6 +152,7 @@ header/*.container*/{
 		text-align:center;
 
 }
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones */
