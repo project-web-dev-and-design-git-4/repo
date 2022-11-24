@@ -1,0 +1,17 @@
+.menu {
+  list-style-type: none;
+  margin: 0px;
+  height:200%;
+  padding:0px;
+  padding-inline-start: 0px;
+  
+  
+}
+.navigation{
+	display:flex;
+}
+.main{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	
+}

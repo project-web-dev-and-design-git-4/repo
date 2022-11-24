@@ -133,7 +133,7 @@ header/*.container*/{
 }
 #Profil{
 	grid-column: 5/ span 2;
-	height:20vw;
+	height:auto;
 	width:20vw;
 	border-radius:50%;
 }
