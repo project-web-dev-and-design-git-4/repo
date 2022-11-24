@@ -29,7 +29,6 @@ a{
 	widows: 100%;
 	height: 100vh; /*viewport height*/
 	position: relative;
-	overflow-y:hidden;
 	grid-column: 2/8;
 	
 }
