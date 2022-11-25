@@ -29,6 +29,7 @@ a{
 	height: 100vh; /*viewport height*/
 	position: relative;
 	grid-column: 2/8;
+	align-content: center;
 	
 }
 
@@ -38,6 +39,16 @@ img {
 
 #me {
 	border-radius: 100%;
+	justify-item:center;
+}
+#home{
+	border-start-start-radius: 100%;
+}
+#hobby{
+	border-bottom-right-radius: 100%;
+}
+#flag{
+	border-top:100px;
 }
 
 .nav{
