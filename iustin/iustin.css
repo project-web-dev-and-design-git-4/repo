@@ -2,6 +2,9 @@
 * {
   box-sizing: border-box;
   font-family: monospace;
+
+    text-shadow: 0 0 3px #FF0000;
+
 } 
 
 .content{
@@ -133,6 +136,7 @@ header{
 	text-align:center;
     background-color: yellow;
     border: solid black;
+    text-shadow: 0 0 3px #FF0000;
     
 }
 
@@ -149,12 +153,15 @@ header{
 	text-align:center;
     background-color:yellow;
     border: solid black;
+      text-shadow: 0 0 3px #FF0000;
 }
 .Hobbies{
 		grid-column: 5/ span 2;
 		text-align:center;
         background-color:yellow;
         border: solid black;
+          text-shadow: 0 0 3px #FF0000;
+
 
 }
 
