@@ -12,32 +12,34 @@
 
 </head>
 
-<header>
+<body>
+    <header>
 
-    <div class="container">
-        <div class="grid">
+        <div class="content">
+            <div class="grid">
 
 
-            <a href="index.html" id="logolink"> <img id="logo" src="img/git4.png" alt="logo"> </a>
-            <a href="index.html" class="toplink1">Home</a>
-            <a href="index.html#blueframe" class="toplink2">Frumi</a>
-            <a href="products1.php" class="toplink3">Rares</a>
-            <a href="contact.php" class="toplink4">Fransisco</a>
 
-        
+                <a href="index.html" id="logolink"> <img id="logo" src="img/git4.png" alt="logo"> </a>
+                <a href="index.html" class="toplink1">Home</a>
+                <a href="index.html#blueframe" class="toplink2">Frumi</a>
+                <a href="products1.php" class="toplink3">Rares</a>
+                <a href="contact.php" class="toplink4">Fransisco</a>
+
+                <button class="mobilebutton"><div class="circle"></div></button>
+
+            </div>
 
         </div>
 
-    </div> 
+    </header>
 
-</header>
 
-<body>
     <h1 class="nume"><strong>Cadar Iustin</strong></h1>
     <p class="p1"> Hello , my name is Cadar Iustin . I am a 19 years old student .</p>
     <p class="p2">I live in Emmen but i come from Romania</p>
-<div class="flex">
-    <img class="img-me" src="img/iustin.png" alt="iustin">
+    <div class="flex">
+        <img class="img-me" src="img/iustin.png" alt="iustin">
     </div>
     <h2 class="hobby"><strong>My Hobbies :</strong></h2>
     <p class="p3">Games</p>
@@ -48,4 +50,27 @@
     <p class="info">My goal is to create a big online business that would help a lot of people</p>
 </body>
 
+<div id="dropdown" class="mobilemeniu">
+    <ul class="links">
+        <li><a id="up" href="index.html">>Home</a></li>
+        <li><a href="#">>Fumi</a></li>
+        <li><a href="#">>Fransisco</a></li>
+        <li><a id="down" href="#">>Iustin</a></li>
+    </ul>
+</div>
+
 </html>
+
+<script>
+
+            let click = document.querySelector('.mobilebutton');
+
+            let list = document.querySelector('.mobilemeniu');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+</script>

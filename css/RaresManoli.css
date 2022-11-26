@@ -75,7 +75,7 @@ header/*.container*/{
 	height:100%;
 
 }
-.toplink1{                      /* toplinks = links for header*/
+.toplink1{                      
 	grid-column: 5/ span 1;
 	
 }
@@ -91,7 +91,7 @@ header/*.container*/{
 }
 .toplink4{
 	grid-column: 11/ span 1;
-	scroll-behavior: smooth;/* this is the scrollTo function*/
+	scroll-behavior: smooth;
 		
 
 }
