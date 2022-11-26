@@ -145,6 +145,8 @@ header{
 	height:auto;
 	width:20vw;
     border: solid black;
+    border-radius:20%;
+     box-shadow: 10px 10px 5px 12px black;
 	
 }
 
@@ -160,7 +162,9 @@ header{
 		text-align:center;
         background-color:yellow;
         border: solid black;
-          text-shadow: 0 0 3px #FF0000;
+          text-shadow: 0 0 0.5px #FF0000;
+          border-radius:10%;
+
 
 
 }
