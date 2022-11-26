@@ -9,6 +9,8 @@
 	margin-top:5%;
 	margin-bottom:5%;
 	align-items:center;
+	background-color:#F07613;
+
 	
 }
 p{
@@ -131,7 +133,7 @@ header/*.container*/{
 }
 #Profil{
 	grid-column: 5/ span 2;
-	height:20vw;
+	height:auto;
 	width:20vw;
 	border-radius:50%;
 }
@@ -150,6 +152,7 @@ header/*.container*/{
 		text-align:center;
 
 }
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones */
