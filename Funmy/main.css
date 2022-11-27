@@ -20,6 +20,8 @@ li{
 a{
 	text-decoration: none;
 	color: #3f3131;
+	text-align: center;
+
 }
 
 #container {
@@ -44,7 +46,7 @@ img {
 #home{
 	border-start-start-radius: 100%;
 }
-#hobby{
+#hooby{
 	border-bottom-right-radius: 100%;
 }
 #flag{
@@ -68,3 +70,21 @@ ul{
 	font-family:ariel,helvetica, san-serif;
 	grid-colum:3/8
 }
+footer{
+	font-size: 1.2rem;
+	padding-bottom: 0.5rem;
+	border-bottom: #3f3131;
+	margin-bottom: 1rem;
+}
+
+li{
+	list-style-type: none;
+	padding: none;
+}
+
+a{
+	text-decoration: none;
+	color: #3f3131;
+	text-align: center;
+}
+
