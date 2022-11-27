@@ -1,55 +1,54 @@
-.menu {
+ul {
  list-style-type: none;
  flex-direction: row;
- height:200%;
+ height: 200%;
 }
 
-.navigation{
-	display:flex;
-	
+nav {
+	display: flex;
 }
 
-main{
+main {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	height:100%;
+	height: 100%;
 	justify-content: space-evenly;
 	justify-items: center;
 	align-content: center;
-	background-color:orange;
+	background-color: orange;
 }
 
-.Us{
+#Us {
 	grid-column: 1/ span 4;
 	display: flex;
 	flex-direction: row;
 	align-items: stretch;
-	height:100%;
+	height: 100%;
 }
 
-.us,img{
-	height:auto;
-	width:90px;
-	margin:20px;
-	margin-left:70px;
-	margin-right:70px;
+#Us, img {
+	width: 90px;
+	margin: 20px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
-#Hobbies{
+
+#Hobbies {
 	grid-column: 1/ span 1;
 }
+
 #Interests{
 	grid-column: 2/ span 1;
 }
 
-#Likes{
+#Likes {
 	grid-column: 3/ span 1;
 }
-#Dislikes{
+
+#Dislikes {
 	grid-column: 4/ span 1;
 }
 
-
-
-footer{
-	align-self:center;
+footer {
+	align-self: center;
 }
