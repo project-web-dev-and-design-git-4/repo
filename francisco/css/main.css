@@ -1,6 +1,6 @@
 body {
-	background-color: orange;
-	color: #f54d27;
+	background-color: #00b8d4;
+	color: #00bfa5;
 	display: grid;
 	font-family: Arial, sans-serif;
 	grid-template-columns: repeat(5, 1fr);
@@ -14,7 +14,7 @@ header, main, footer {
 	background-color: #ffffff;
 }
 
-#menu {
+ul {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -27,12 +27,11 @@ li {
 }
 
 li:hover {
-	background-color: #f54d27;
-	color: #ffffff;
+	background-color: #00bfa5;
 }
 
 a {
-	color: #f54d27;
+	color: #00bfa5;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -51,7 +50,7 @@ div > img {
 }
 
 #orange {
-	background: #f54d27;
+	background: #00bfa5;
 	color: #ffffff;
 }
 
