@@ -12,40 +12,61 @@
 
 </head>
 
-<header>
+<body class="content">
+    <header>
 
-    <div class="container">
-        <div class="grid">
+        <div class="conteiner">
+            <div class="grid">
 
 
-            <a href="index.html" id="logolink"> <img id="logo" src="img/git4.png" alt="logo"> </a>
-            <a href="index.html" class="toplink1">Home</a>
-            <a href="index.html#blueframe" class="toplink2">Frumi</a>
-            <a href="products1.php" class="toplink3">Rares</a>
-            <a href="contact.php" class="toplink4">Fransisco</a>
 
-        
+                <a href="index.html" id="logolink"> <img id="logo" src="img/git4.png" alt="logo"> </a>
+                <a href="index.html" class="toplink1">Home</a>
+                <a href="index.html#blueframe" class="toplink2">Frumi</a>
+                <a href="products1.php" class="toplink3">Rares</a>
+                <a href="contact.php" class="toplink4">Fransisco</a>
+
+                <button class="mobilebutton"><div class="circle"></div></button>
+
+            </div>
 
         </div>
 
-    </div> 
+    </header>
+   
+      <img class="img-me" src="img/iustin.png" alt="iustin">
 
-</header>
-
-<body>
-    <h1 class="nume"><strong>Cadar Iustin</strong></h1>
-    <p class="p1"> Hello , my name is Cadar Iustin . I am a 19 years old student .</p>
-    <p class="p2">I live in Emmen but i come from Romania</p>
-<div class="flex">
-    <img class="img-me" src="img/iustin.png" alt="iustin">
+    <p id="me"> Hello ! My name is Cadar Iustin Mihai.<br>I am 19 years old student <br> I live right now in Emmen </p>
+    <div class="Hobbies">
+        <h1 id="Hobbies"> My Hobbies</h1>
+        <p id="HobbiesText"> Robotics<br>Reading<br>Games<br>Programing<br>Sports</p>
     </div>
-    <h2 class="hobby"><strong>My Hobbies :</strong></h2>
-    <p class="p3">Games</p>
-    <p class="p4">Reading</p>
-    <p class="p4">Going out</p>
-    <p class="p4">Investing</p>
-    <p class="p4">Programing</p>
-    <p class="info">My goal is to create a big online business that would help a lot of people</p>
+    <p id="more-of-me"> I like a lot to read personal development books<br>I also like to help others with any kind of problem</p>
+
+   
 </body>
 
+<div id="dropdown" class="mobilemeniu">
+    <ul class="links">
+        <li><a id="up" href="index.html">>Home</a></li>
+        <li><a href="#">>Fumi</a></li>
+        <li><a href="#">>Fransisco</a></li>
+        <li><a id="down" href="#">>Iustin</a></li>
+    </ul>
+</div>
+
 </html>
+
+<script>
+
+            let click = document.querySelector('.mobilebutton');
+
+            let list = document.querySelector('.mobilemeniu');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+</script>

@@ -1,176 +1,282 @@
 
 * {
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  font-family: monospace;
+
+    text-shadow: 0 0 3px #FF0000;
+
 } 
 
-.container{
+.content{
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	margin-top:5%;
 	margin-bottom:5%;
 	align-items:center;
+	background-color:darkseagreen;
+
+	
+}
+p{
+    font-size: 2.11rem;   
+}
+a{
+    font-weight: normal;
+    color: black;
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+	font-weight: bold;
+}
+
+
+h1 {
+	grid-column: 2/ 10;
+	 color:black;
+	  font-size: 3rem; 
+	  text-align:center;
+ }
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  height:200%;
+  padding:0px;
+  padding-inline-start: 0px;
+  
+  
+}
+li a {
+  display: block;
+  font-weight: bold;
+  width:100%;
+  align-self:center;
+  margin-left:3vw;
+  margin-bottom:5vw;
+  margin-top:5vw;
+  color:white;
+  
+  
+}
+header{
+	display: flex;
+	position: fixed;
+	
+	Top:0;
+	Left:0;
+	margin:0;
+	background-color: white;         
+	border: 1px solid;
+	box-shadow: 3px 4px #d3d0d0;
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);     
+	align-items: center;
+    justify-content: center;
+	width:100%;
+	height:100%;
+
+}
+.toplink1{                      
+	grid-column: 5/ span 1;
+	
+}
+.toplink2{
+	grid-column: 7/ span 1;
+		
+
+}
+.toplink3{
+	grid-column: 9/ span 1;
+		
+
+}
+.toplink4{
+	grid-column: 11/ span 1;
+	scroll-behavior: smooth;
+		
+
+}
+.circle{
+	width: 20px; 
+	height: 20px; 
+	border-radius: 100%;
+	background-color: #1E407A;
+}
+.mobilebutton{
+	display: none;
+	border: none;
+	grid-column: 12/ span 1;
+	align-items:center;
+	margin:0px;
+	padding:0px;
+	width: 20px; 
+	height: 20px; 
 	
 }
 
-
-.nume {
-   
-    font-size: 6rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
+#txt{
+	grid-column: 3/ 9;
+	text-align:center;
 }
 
-.p1 {
-
- font-size: 3rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-    margin-top: 3vw;
-
-
-}
- .p2{
-font-size: 3rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-    margin-top: 3vw;
- }
-
-.hobby {
-font-size: 6rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-     margin-top: 4vw;
+#logo{
+	height:auto;
+	width:100%;
+	grid-column: 2/ 3;
 }
 
-.p3 {
-    font-size: 3rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-      margin-top: 3vw;
-}
 
-.p4 {
-      font-size: 3rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-}
-
-.info{
-font-size: 3rem;
-    text-align: center;
-    font-family: 'arial'; 
-    margin-top: 3vw;
-    margin-bottom : 3vw;
- }
-
-.flex {
-    display:flex; 
-    align-items: center;
-    justify-content:center;
+#me{
+	grid-column: 3/  9;
+	text-align:center;
+    background-color: yellow;
+    border: solid black;
+    text-shadow: 0 0 3px #FF0000;
+    
 }
 
 .img-me{
-    
-    width : 25vw;
-    height: 25vw;
-     margin-top: 3vw;
-    margin-bottom : 3vw;
-   
+	grid-column: 5/ span 2;
+	height:auto;
+	width:20vw;
+    border: solid black;
+    border-radius:20%;
+     box-shadow: 10px 10px 5px 12px black;
+	
 }
+
+#more-of-me{
+	grid-column: 3/  9;
+	text-align:center;
+    background-color:yellow;
+    border: solid black;
+      text-shadow: 0 0 3px #FF0000;
+}
+.Hobbies{
+		grid-column: 5/ span 2;
+		text-align:center;
+        background-color:yellow;
+        border: solid black;
+          text-shadow: 0 0 0.5px #FF0000;
+          border-radius:10%;
+
+
+
+}
+
 
 @media only screen and (max-width: 768px) {
+  
+  .content{
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-column-gap: 5vw; 
+	margin-top:15vw; 
+	height:auto;
+    width: 100%;
+}
 
-    .nume {
-        font-size: 3rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial';
 
+a{
+	
+    font-weight: normal;
+    color: black;
+	font-size: 1.68rem;
+	text-decoration: none;
+}
+
+    h1{
+     font-size: 1.5rem;    
     }
-
-.p1 {
-
- font-size: 1.5rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-    margin-top: 3vw;
-
+	
+	p{
+    font-size: 1rem;    
+		
+		
+	width:100%;
+	height:5%;
+	
+	
+    }
+  #txt{
+	grid-column: 3/ 9;
+	text-align:center;
 }
-
- .p2{
-font-size: 1.5rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-    margin-top: 3vw;
+  
+  
+.mobilebutton{
+	display: block;
+	width: 20px; 
+	height: 20px; 
+	border-radius: 100%;
+	background-color: 1E407A;
+  }
+.container{
+	
+	 height:10Vw;
+  width: 100%;
+}
+.grid{ 
+  height:auto;
+  width: 100%;
+  align-items:center;
+  height:100%;
+  margin-bottom:auto;
+  margin-top:auto;
+  }
+.toplink1{
+ display: none;  
  }
-
-.hobby {
-font-size: 2.5rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-     margin-top: 4vw;
-}
-
-.p3 {
-    font-size: 1.5rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-      margin-top: 3vw;
-}
-
-.p4 {
-      font-size: 1.5rem;
-    margin:0;
-    padding:0;
-    text-align: center;
-    font-family: 'arial'; 
-}
-
-.info{
-font-size: 1.5rem;
-    text-align: center;
-    font-family: 'arial'; 
-    margin-top: 3vw;
-    margin-bottom : 3vw;
+ 
+.toplink2{
+ display: none;  
  }
-
-.flex {
-    display:flex; 
-    align-items: center;
-    justify-content:center;
+ 
+  .toplink3{
+	 display: none;
+  }
+  .toplink4{
+	 display: none;
+  }
 }
 
-.img-me{
-    
-    width : 30vw;
-    height: 30vw;
-     margin-top: 3vw;
-    margin-bottom : 3vw;
-   
+.links{
+	align-items:center;
+	border-radius:3%;
+	background-color: #22457D;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	
 }
+
+.mobilebutton,.links{
+	transition: 0.3s;
+	outline: none;
+	
+}
+.mobilemeniu{
+	grid-column: 11/ span 1;
+	position:fixed;
+	height:auto;
+	width:40%;
+	Right:0;
+	Top:10Vw;
+	align-items:center;
+	
+	transform: scaleX(0);
+
+    transform-origin: Right;
+
+    transition: 0.3s;
+}
+
+.newlist {
+	display:block;
+    transform: scaleX(1);
 
 }
